@@ -9,4 +9,4 @@ RUN cd video_segment && \
   mkdir build && \
 	cd build && \
 	cmake ../seg_tree_sample && \
-	make
+	make -j8
